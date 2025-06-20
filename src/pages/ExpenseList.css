@@ -1,0 +1,10 @@
+/* src/components/ExpenseList.css */
+
+.custom-table-header {
+  background-color: #4b0082; /* Indigo */
+  color: white;
+}
+.custom-table-header th {
+  background-color: #4b0082 !important;
+  color: #fff !important;
+}
