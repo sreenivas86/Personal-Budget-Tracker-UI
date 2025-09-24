@@ -225,7 +225,4 @@ You can also create a **`docker-compose.yml`** to run **frontend + backend toget
 
 ---
 
-If you want, I can also **create the docker-compose version** for you and add instructions to include backend + frontend together.  
-
-Do you want me to do that?
 ```
