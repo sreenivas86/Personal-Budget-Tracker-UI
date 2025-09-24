@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = import.meta.env.VITE_API_URL;
+const BASE_URL = window._env_.VITE_API_URL || import.meta.env.VITE_API_URL;
 
 const sendData = async (data) => {
   const authUrl = `${BASE_URL}/auth/register`;
