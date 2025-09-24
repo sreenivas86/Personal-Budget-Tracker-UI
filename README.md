@@ -217,9 +217,6 @@ docker logs <container_id>
 
 ---
 
-### Next Step
-
-You can also create a **`docker-compose.yml`** to run **frontend + backend together** with environment variables, allowing you to start everything with **one command**.
 
 ```
 
