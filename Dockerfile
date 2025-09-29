@@ -1,9 +1,8 @@
 # -----------------------------
-# Builder Stage: Build the React app
+# Builder Stage: Build the app
 # -----------------------------
 FROM node:22-alpine AS builder
 
-# Set working directory
 WORKDIR /app
 
 # Copy package files and install dependencies
