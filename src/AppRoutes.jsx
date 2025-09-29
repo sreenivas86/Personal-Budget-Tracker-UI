@@ -14,7 +14,7 @@ import AddBudgetForm from "./pages/AddBudgetForm";
 
 const AppRoutes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/myapp/">
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="expense/edit/:id" element={<PrivateRoute><UpdateExpenseForm /></PrivateRoute>} />
